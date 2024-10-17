@@ -1,0 +1,43 @@
+.list {
+	color: #9da5b4;
+}
+
+.page {
+	background-color: #282c34;
+	border-radius: 33px;
+	overflow: hidden;
+	padding: 0px;
+	margin: 5% 5% 5% 5%;
+	position: relative;
+	height: 60vh;
+}
+
+body {
+	background-color: #21252b;
+	color: #9da5b4;
+	margin: 0px;
+	margin: 0px;
+}
+
+li:empty {
+	display: none;
+}
+
+ul {
+	list-style-type: square;
+}
+.pic {
+	border-radius: 33px 0px 0px 33px;
+	float: left;
+	margin-right: 5%;
+	height: 60vh;
+}
+
+.heading {
+	text-align: center;
+	color: #9da5b4;
+	font-size: 80px;
+	padding: 0;
+	margin: 0;
+	margin-top: 2.5%;
+}
