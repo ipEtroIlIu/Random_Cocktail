@@ -1,15 +1,12 @@
-.list {
-	color: #9da5b4;
-}
-
 .page {
 	background-color: #282c34;
-	border-radius: 33px;
+	border-radius: 4.44vh;
 	overflow: hidden;
 	padding: 0px;
-	margin: 5% 5% 5% 5%;
+	margin: 5% 5% 2% 5%;
 	position: relative;
 	height: 60vh;
+	box-shadow: 0vh 0vh 4vh 0.67vh rgba(157, 165, 180, 0.22);
 }
 
 body {
@@ -17,27 +14,77 @@ body {
 	color: #9da5b4;
 	margin: 0px;
 	margin: 0px;
-}
-
-li:empty {
-	display: none;
+	font-family: Georgia, serif;
 }
 
 ul {
-	list-style-type: square;
-}
-.pic {
-	border-radius: 33px 0px 0px 33px;
-	float: left;
-	margin-right: 5%;
-	height: 60vh;
+	font-size: 2.69vh;
+	line-height: 3vh;
+	padding: 0;
+	margin-left: 2.5vh;
 }
 
-.heading {
-	text-align: center;
+.info {
+	overflow-y: auto;
+	height: 100%;
+}
+
+.picture {
+	float: left;
+	height: 60vh;
+	top: 0;
+}
+
+.txt {
+	position: relative;
+	width: 100vh;
+	font-size: 2.69vh;
+	margin-top: 5.5%;
+	margin-left: 8vh;
+}
+
+.info::-webkit-scrollbar {
+	height: 100%;
+	width: 0.8vh;
+}
+
+.info::-webkit-scrollbar-track {
+	border-radius: 0px;
+	background-color: #282c34;
+}
+
+.info::-webkit-scrollbar-thumb {
+	border-radius: 0px;
+	background-color: #9da5b4;
+	height: 5vh;
+}
+
+.btn {
+	border: none;
+	border-radius: 1.2vh;
+	background-color: #9da5b4;
 	color: #9da5b4;
-	font-size: 80px;
-	padding: 0;
-	margin: 0;
-	margin-top: 2.5%;
+	font-size: 8vh;
+	margin-right: 2.4vh;
+	font-family: Georgia, serifs;
+	padding: 0vh 4.9vh;
+	text-align: center;
+	transition: color 0.44s;
+}
+
+.btn:hover {
+	color: #21252b;
+}
+
+.headline {
+	margin: 2.5vh;
+}
+
+.tagline {
+	color: #9da5b4;
+	font-size: 8vh;
+	width: 100%;
+	margin-top: 3%;
+	display: flex;
+	justify-content: center;
 }
